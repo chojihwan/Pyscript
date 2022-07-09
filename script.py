@@ -25,15 +25,15 @@ colors = ["green", "blue"]
 background(colors)
 
 # 이름과 설명, 버튼에 들어갈 글 설정
-write("name", "이름")
-write("description", "설명")
+write("name", "조지환")
+write("description", "공산중에 다닌다")
 write("button", "버튼")
 
 # 상세설명에 들어갈 제목과 글 설정
 informations = {
-  "제목1": "내용1",
-  "제목2": "내용2",
-  "제목3": "내용3",
-  "제목4": "내용4"
+  "이름": "조지환",
+  "나이": "14",
+  "취미": "게임",
+  "학교": "공산중"
 }
 information(informations)
